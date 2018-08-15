@@ -1,0 +1,118 @@
+html {
+    height: 100%;
+    margin: 0;
+  }
+  body{
+    position: relative;
+  }
+  .header {
+    display:block;;
+    margin-bottom: 60px;
+    background-color: #dddddd;
+    padding: 20px;
+    border-bottom: 3px solid rgb(211, 204, 204);
+ }
+ 
+ .navi{
+     color:rgb(78, 77, 77);
+     font-size: 20px;
+     display: inline;
+     float:right;
+     
+ 
+ }
+ #Name{
+     color:white;
+     background: #47a5b3;;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     padding: 20px;
+     font-size: 40px;
+     display:inline;
+     margin-left:220px;
+ }
+ #Aboutlink{
+     
+     color:#dddddd;
+     float:left;
+     padding-right:20px;
+     border-right: 1px solid rgb(201, 198, 198);
+ }
+ 
+ #Portfoliolink{
+     border-right: 1px solid rgb(201, 198, 198);
+     float:left;
+     padding-right:20px;
+     padding-left:5px;
+ }
+ #Contactlink{
+     margin-right:225px;
+     float:right;
+     padding-left:5px;
+ }
+ a:hover{
+     text-decoration: none;
+     color:rgb(235, 230, 230);
+ }
+ body{
+     background-image: url("assets/images/concrete-texture/concrete-texture.png");
+ 
+ }
+ .image {
+    width:250px;
+    height:300px;
+    margin: 30px;
+    padding:5px;
+  }
+ .main {
+    margin: 0 auto;
+    width:960px;
+    border:2px solid rgb(235, 230, 230);
+    display:block;
+    margin-bottom: 20px;
+    background: white;
+    font-size: 20px;
+}
+
+ h1 {
+    border-bottom: 2px solid rgb(235, 230, 230);
+    color:#47a5b3;
+    padding: 10px 20px 20px 20px;
+    margin-top: 10px;
+    font-size:40px;
+   
+}
+
+.container {
+    
+    display:inline;
+    position:relative;
+ }
+
+.overlay {
+    position: absolute;
+    display:inline;
+    background: #47a5b3;
+    opacity:10;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width:240px;
+    bottom:80px;
+    left:50px;
+    padding-top:10px;
+    
+}
+.footer{
+    color:black;
+    text-align: center;
+    display:block;
+    height: 40px;
+    width:100%;
+    background: gray;
+    border-top:5px solid #47a5b3;
+    position: fixed;
+    bottom:5px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
