@@ -57,7 +57,7 @@ a:hover{
 }
 
  body{
-     background-image: url("assets/images/concrete-texture/concrete-texture.png");
+     background-image: url("assets/images/full-bloom/full-bloom.png");
  
  }
 
@@ -224,5 +224,65 @@ h4{
     
     footer{
         height:10px;
+    }
+}
+@media screen and (max-width:960px) and (min-width:651px){
+    #Name{
+        font-size:30px;
+        margin:0;
+    }
+    .header{
+        display:inline;
+        padding:0;
+        background-color: white;
+    }
+    .navi{
+        background-color:white;
+        margin:0;
+        text-align: center;
+        height:50px;
+        margin-right:20px;
+        padding-right:15px;
+        padding-left:15px;
+    } 
+    #Aboutlink{
+        padding-top:15px;
+        float:left;
+        margin:0;
+    }  
+    #Portfoliolink{
+        padding-top:15px;
+        float:left;
+        margin:0;
+        
+    }
+    #Contactlink{
+        padding-top:15px;
+        float:left;
+        margin:0;
+
+    }
+    .main{
+        margin-top:10%;
+        max-width: 90%;
+    }
+    .container{
+        margin-top:15px;
+    }
+    a{  
+        text-decoration: none;
+        padding:0px;
+        margin:0;
+    }
+    h1{
+        padding:5%;
+        font-size:150%;
+        margin-left:5%;
+    }
+    input{
+        max-width: 105%;
+    }
+    p{
+        font-size:17px;
     }
 }

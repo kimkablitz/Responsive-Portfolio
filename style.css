@@ -103,39 +103,18 @@ p{
     padding-top: 5px;
     margin-top: 20px;
 }
-@media screen and (max-width:960px){
-    body{
-        background-color:green;
-    }
-    .container{
-        width:100%;
-    }
-    .header{
-        width:100%;
-    }
-    #Name{
-        margin-left:0px;
-    }
-
-    .main{
-        width:80%
-    }
-}
-@media screen and (max-width:768px){
-    body{
-    background-color: pink;
-    }
-}
-@media screen and (max-width:650px){
+@media only screen and (max-width:650px){
     body{
         background-color: olive;
     }
+
     #Name{
         text-align: center;
         width:100%;
         margin:0px;
         display:block;
     }
+    
     .navi{
         background-color:white;
         width:100%;
@@ -185,6 +164,8 @@ p{
     
     h1{
         padding:5%;
+        font-size:100%;
+        margin-left:5%;
     }
     .container{
         max-width:100%;
@@ -206,3 +187,81 @@ p{
         height:10px;
     }
 }
+@media screen and (max-width:960px) and (min-width:768px){
+
+    #Name{
+        font-size:30px;
+        margin:0;
+    }
+    .header{
+        display:inline;
+        padding:0;
+        background-color: white;
+    }
+    .navi{
+        background-color:white;
+        margin:0;
+        text-align: center;
+        height:50px;
+        margin-right:20px;
+        padding-right:15px;
+        padding-left:15px;
+    } 
+    #Aboutlink{
+        padding-top:15px;
+        float:left;
+        margin:0;
+    }  
+    #Portfoliolink{
+        padding-top:15px;
+        float:left;
+        margin:0;
+        
+    }
+    #Contactlink{
+        padding-top:15px;
+        float:left;
+        margin:0;
+
+    }
+    .main{
+        margin-top:10%;
+        max-width: 90%;
+    }
+    .container{
+        margin-top:15px;
+    }
+    a{  
+        text-decoration: none;
+        padding:0px;
+        margin:0;
+    }
+    h1{
+        padding:5%;
+        font-size:150%;
+        margin-left:5%;
+    }
+    p{
+        font-size:17px;
+    }
+}
+@media only screen and (min-width:959px){
+    body{
+        background-color:green;
+    }
+    .container{
+        width:100%;
+    }
+    .header{
+        width:100%;
+    }
+    .navi{
+        margin:0;
+        padding-left:10%;
+    }
+
+    .main{
+        width:80%
+    }
+}
+
